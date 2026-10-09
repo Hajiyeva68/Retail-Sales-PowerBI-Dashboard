@@ -1,0 +1,21 @@
+ProductID,ProductName,Category,UnitCost,BasePrice
+P001,Fresh Laundry Detergent 1L,Laundry Care,5.1,9.99
+P002,Laundry Pods 20 Pack,Laundry Care,6.8,13.49
+P003,Fabric Softener 1L,Laundry Care,3.2,7.49
+P004,Stain Remover Spray,Laundry Care,2.95,6.99
+P005,Surface Cleaning Spray,Home Care,2.4,5.99
+P006,Dishwashing Liquid,Home Care,1.65,4.29
+P007,Dishwasher Capsules 30 Pack,Home Care,6.4,12.99
+P008,Bathroom Cleaner,Home Care,2.35,5.49
+P009,Daily Shampoo,Personal Care,3.15,7.99
+P010,Repair Conditioner,Personal Care,3.1,7.99
+P011,Body Wash,Personal Care,2.65,6.49
+P012,Toothpaste Twin Pack,Personal Care,2.35,5.99
+P013,Skin Care Lotion,Personal Care,4.5,10.99
+P014,Hand Soap Refill,Personal Care,1.75,4.49
+P015,Baby Wipes 72 Pack,Baby Care,2.15,5.49
+P016,Baby Shampoo,Baby Care,3.45,8.49
+P017,Baby Diapers 32 Pack,Baby Care,7.8,16.99
+P018,Baby Lotion,Baby Care,3.65,8.99
+P019,Paper Towels 4 Pack,Home Care,3.1,7.49
+P020,Floor Cleaning Liquid,Home Care,2.75,6.49

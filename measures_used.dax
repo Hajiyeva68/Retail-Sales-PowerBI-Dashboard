@@ -1,0 +1,31 @@
+-- DAX measures implemented in the Power BI semantic model.
+-- Created in the Power BI Service in the FactSales table.
+
+Total Revenue =
+SUMX(
+    FactSales,
+    FactSales[Units] *
+    FactSales[UnitPrice] *
+    (1 - FactSales[DiscountPct])
+)
+
+Total Profit =
+SUMX(
+    FactSales,
+    FactSales[Units] *
+    (
+        FactSales[UnitPrice] *
+        (1 - FactSales[DiscountPct])
+        - RELATED(DimProducts[UnitCost])
+    )
+)
+
+Profit Margin =
+DIVIDE(
+    [Total Profit],
+    [Total Revenue],
+    0
+)
+
+-- In Power BI, format Profit Margin as Percentage, 2 decimal places.
+-- IMPORTANT: These are MEASURES, not calculated columns.

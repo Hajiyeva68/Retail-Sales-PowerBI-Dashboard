@@ -1,0 +1,13 @@
+StoreID,StoreName,Region,Channel
+S01,Warsaw Central,Mazowieckie,Supermarket
+S02,Warsaw South,Mazowieckie,Supermarket
+S03,Krakow West,Malopolskie,Supermarket
+S04,Krakow City,Malopolskie,Convenience
+S05,Gdansk Centre,Pomorskie,Supermarket
+S06,Gdynia Harbour,Pomorskie,Convenience
+S07,Wroclaw Centre,Dolnoslaskie,Supermarket
+S08,Poznan East,Wielkopolskie,Supermarket
+S09,Lodz North,Lodzkie,Supermarket
+S10,Lublin City,Lubelskie,Convenience
+S11,Online Store Poland,Nationwide,Online
+S12,Online Marketplace,Nationwide,Online
